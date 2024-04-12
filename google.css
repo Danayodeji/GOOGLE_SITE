@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+}
+:root{
+    --bg_color: #202124:
+}
+body{
+    background: #202124 ;
+    width: 100%;
+    height: 100vh;
+}
+
+.head nav img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.head nav p{
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    justify-self: end;
+    gap: 15px;
+}
