@@ -75,4 +75,6 @@ body{
     height: 40px;
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
