@@ -31,13 +31,12 @@ body{
     gap: 15px;
     padding: 10px;
 }
-.search_icon {
+.icon {
     color: #aca8a8;
 }
 .search_hold{
     width: 100%;
     min-height: 90vh;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,5 +44,35 @@ body{
     row-gap: 30px;
 }
 .search_hold h1{
-    font-size: 30pt;
+    font-size: 70pt;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.search{
+    border: 1px solid #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 30px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    width: 30em;
+    height: 20px;
+    outline: none;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+}
+.icon_hold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google_btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 10px;
 }
