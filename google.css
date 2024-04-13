@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    font-family: 'Segoe UI', sans-serif;
 }
 :root{
     --bg_color: #202124:
@@ -29,4 +30,20 @@ body{
     justify-self: end;
     gap: 15px;
     padding: 10px;
+}
+.search_icon {
+    color: #aca8a8;
+}
+.search_hold{
+    width: 100%;
+    min-height: 90vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.search_hold h1{
+    font-size: 30pt;
 }
