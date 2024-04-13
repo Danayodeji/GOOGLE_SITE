@@ -80,4 +80,8 @@ body{
 }
 .btn{
     background-color: #303030;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
 }
